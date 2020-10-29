@@ -1,0 +1,15 @@
+{
+  "name": "unittesting",
+  "version": "1.0.0",
+  "description": "unit_test",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "mocha",
+    "chai"
+  ],
+  "author": "gowtham",
+  "license": "ISC"
+}
