@@ -6,7 +6,7 @@ var request = require('request');
  describe('Main & Test Page', function() {
      describe('Main page', function() {
         it('Main page content', function(done) {
-            request('http://localhost:2000' , function(error, response, body) {
+            request('http://localhost:3000' , function(error, response, body) {
                 console.log(body);
                 console.log(error);
                 console.log(response.statusCode);
@@ -25,7 +25,7 @@ var request = require('request');
      })
      describe('Test page', function() {
         it ('Test page content', function(done) {
-            request('http://localhost:2000/test-page', function(error, response, body) {
+            request('http://localhost:3000/test-page', function(error, response, body) {
                 console.log(body);
                 // assert in chai
                 assert.notEqual(body, 'array');
